@@ -10,7 +10,7 @@
     
 <!--Database code starts here: The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-database.js"></script>
+<script src=""https://www.gstatic.com/firebasejs/9.0.1/firebase-database.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
@@ -18,17 +18,22 @@
 <script>
   // Your web app's Firebase configuration
  
-   const firebaseConfig = {
-    apiKey: "AIzaSyA--ef3K37AQPEjKjd5mkZheLG9rgxK5KQ",
-    authDomain: "car-racing1-bfdc9.firebaseapp.com",
-    projectId: "car-racing1-bfdc9",
-    storageBucket: "car-racing1-bfdc9.appspot.com",
-    messagingSenderId: "937191880707",
-    appId: "1:937191880707:web:c8b9e16188eeb4b6763636"
+     const firebaseConfig = {
+    apiKey: "AIzaSyAEZmHNKQYxtGsTNuS2XCWFJvFLc-9_f7k",
+    authDomain: "multicarracing-5ddfe.firebaseapp.com",
+    databaseURL: "https://multicarracing-5ddfe-default-rtdb.firebaseio.com",
+    projectId: "multicarracing-5ddfe",
+    storageBucket: "multicarracing-5ddfe.appspot.com",
+    messagingSenderId: "479222211213",
+    appId: "1:479222211213:web:8b85e25a33dc2ffd5478c4",
+    measurementId: "G-PXW5L85ZW5"
   };
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
 
  
 
